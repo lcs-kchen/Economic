@@ -133,7 +133,9 @@ class QuestionListViewModel {
         )
 
         ]
-    
-   
+    func questionCount() -> Int {
+        questions.count
+    }
+
 }
 

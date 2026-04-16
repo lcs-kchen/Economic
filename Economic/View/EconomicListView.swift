@@ -19,11 +19,12 @@ struct EconomicListView: View {
                     ThingView(thingToShow: current)
                 }
                 .listStyle(.plain)
-                .navigationTitle("Economic Questions")
+                .navigationTitle("Economic Questions: \(questionsNeed.count)")
             }
         }
     }
 }
+
 
 #Preview {
     EconomicListView()
