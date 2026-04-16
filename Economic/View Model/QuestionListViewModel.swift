@@ -3,7 +3,7 @@
 //  Economic
 //
 //  Created by Haowen Chen on 2026-04-15.
-//
+// This code was co-developed with Colipot
 
 import SwiftUI
 import Observation
