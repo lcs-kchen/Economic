@@ -17,7 +17,7 @@ struct EconomicDetailView: View {
         ScrollView {
             VStack {
                     
-                Text(thingsToShow.options)
+                Text(thingsToShow.answers)
             }
             .padding()
         }

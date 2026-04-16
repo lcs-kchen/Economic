@@ -19,7 +19,7 @@ struct ThingView: View {
                 Spacer()
             }
             
-            Text(thingToShow.answers)
+            Text(thingToShow.options)
             
         }
         
