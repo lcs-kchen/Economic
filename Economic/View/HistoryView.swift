@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HistoryView: View {
-    let viewModel: QuestionListViewModel
+    let viewModel: HistoryViewModel
 
     var body: some View {
         List(viewModel.clickQuestions) { history in
