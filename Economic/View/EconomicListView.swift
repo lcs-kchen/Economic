@@ -19,7 +19,9 @@ struct EconomicListView: View {
                     ThingView(thingToShow: current)
                 }
                 .listStyle(.plain)
-                .navigationTitle("Economic Questions: \(questionsNeed.count)")
+                .navigationTitle(questionsNeed.count > 0
+                                 ? "Economic Questions: \(questionsNeed.count)"
+                                 : "No Questions Available")
             }
         }
     }
