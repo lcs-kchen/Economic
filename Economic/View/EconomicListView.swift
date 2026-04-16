@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct EconomicListView: View {
+    
+    let questionsNeed = QuestionListViewModel().questions
     var body: some View {
         NavigationStack{
             List(questionsNeed) { current in

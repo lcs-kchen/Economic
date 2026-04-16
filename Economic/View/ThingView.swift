@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct ThingView: View {
-    
     let thingToShow: Question
-    
+        
     var body: some View {
         VStack(alignment: .leading) {
             HStack(alignment: .lastTextBaseline){
